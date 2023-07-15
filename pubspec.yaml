@@ -1,6 +1,6 @@
-name: template_builder
-description: A sample command-line application.
-version: 1.0.0
+name: template_builder_x
+description: A sample command-line application to generate template directories and files.
+version: 0.0.1
 # repository: https://github.com/my_org/my_repo
 
 environment:
@@ -15,3 +15,7 @@ dependencies:
 dev_dependencies:
   lints: ^2.0.0
   test: ^1.21.0
+
+executables:
+  template_builder_x:
+    main: bin/template_builder_x.dart
